@@ -1,0 +1,122 @@
+`ex1`
+
+const fruits =[
+    'Apple',
+    "Orange",
+    'Bannana'
+]
+
+console.log('1st fruit',fruits[0]);
+console.log('last fruit' ,fruits[2]);
+
+`ex2`
+
+const colour = [
+    'Red',
+    'Blue'
+]
+colour.push('Green');
+
+console.log(colour);
+
+
+
+`ex3`
+
+const bike ={
+    brand : 'Yamaha',
+    model : 'R15',
+    year  : '2024'
+}
+console.log("Brand :", bike.brand);
+console.log('Model :', bike.model);
+console.log('Year :' , bike.year);
+
+
+`ex 4`
+
+const detalis = {
+    name : 'Soorya',
+    age : 20,
+    college : 'Dsce',
+    branch : 'Mechanical Engineering',
+    skills : 'CSS/HTML,Java script,React'
+}
+console.log('Name : ',detalis.name,);
+console.log('Age : ',detalis.age);
+console.log('College : ',detalis.college);
+console.log('Branch : ',detalis.branch);
+console.log('Skills : ',detalis.skills);
+
+
+`ex 5`
+
+const numbers = [
+    10,
+    20,
+    30,
+    40,
+    50
+]
+for (const number of numbers){
+    console.log(number);
+    
+}
+
+
+`Task 1`
+
+const students =[
+    {
+        name : 'Soorya',
+        mark : 90
+    },
+    {
+        name : 'Rahul',
+        mark : 75
+    },
+    {
+        name : 'Arun',
+        mark : 82
+    }
+];
+console.log(students[0].name);
+console.log(students[1].name);
+console.log(students[2].name);
+
+
+`task 2 & 3`
+
+let total =0;
+let avg =0;
+
+ for ( const student of students){
+    total= total + student.mark
+    avg = total/3;
+    
+ }
+console.log(total);
+console.log(avg);
+
+
+`task 4`
+
+for (const student of students){
+    if (student.mark >= 80){
+        console.log(student.name);
+        
+    }
+
+}
+
+
+`challenge last gived`
+
+const numbering =[5,10,15,20,25]
+
+for (  number of numbering){
+    if (number>=15) {
+        console.log(number);
+        
+    }
+}
