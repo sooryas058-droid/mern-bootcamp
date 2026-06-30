@@ -1,0 +1,63 @@
+   `exercise 1`
+
+let name ="Soorya";
+const age=20;
+const college="Dsce";
+const branch="Mechanical Engineering"
+
+
+console.log(`Hello my name is ${name}`);
+console.log(`i am ${age} year old`);
+console.log(`i study ${branch}`);
+
+`exercise 2`
+
+
+let multiply=(a,b) => a*b;
+
+console.log(multiply(5,4));
+
+
+
+`exercise 3`
+
+const isAdult=(age) =>{
+
+
+if (age>= 18){
+    return('Adult')
+}
+else{
+    return ('Minor')
+}
+}
+console.log(isAdult(13));
+console.log(isAdult(20));
+
+`exercise 4`
+
+const celisious = 30;
+const farentheat =(celisious*9/5)+32;
+console.log(celisious);
+console.log(farentheat);
+console.log(` ${celisious}C is coverted to ${farentheat}F`);
+
+
+`ex`
+
+const greet =(name)=>{
+    return `Hello ${name}`
+};
+console.log(greet('soorya'));
+
+
+
+const isEven = (number)=>{
+    if (number%2==0){
+        return ('Even')
+    }else{
+        return ('Odd')
+    }
+}
+console.log(isEven(8));
+console.log(isEven(5));
